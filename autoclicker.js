@@ -87,7 +87,7 @@ let boxStyle = `style=" max-width: 25%;max-height: 25%;  box-sizing: border-box;
 
 stickyDiv.innerHTML = `
 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;">
-<p style="text-align:center;">r/place <a href="https://github.com/yakuthun" target="_blank">Auto Clicker</a></p>
+<p style="text-align:center;">r/place <a href="https://github.com/yakuthun/rplace-autoclicker/" target="_blank">Auto Clicker</a></p>
 <div style="display: flex; flex-wrap: wrap; margin: 0px 5px 5px 5px;">
 <div ${boxStyle} background-color:#FF4500;border:1px solid #FF4500;" onclick="chooseColor('2')"></div>
 <div ${boxStyle} background-color:#FFA800;border:1px solid #FFA800;" onclick="chooseColor('3')"></div>
