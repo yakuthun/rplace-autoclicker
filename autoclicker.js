@@ -7,6 +7,8 @@
 // @match        https://garlic-bread.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
+// @updateURL    https://github.com/yakuthun/rplace-autoclicker/raw/main/autoclicker.js
+// @downloadURL  https://github.com/yakuthun/rplace-autoclicker/raw/main/autoclicker.js
 // ==/UserScript==
 
 if (window.top !== window.self) {
@@ -119,7 +121,7 @@ document.body.appendChild(stickyDiv);
     let colorBoxes = stickyDiv.querySelectorAll('[onclick^="chooseColor"]');
     colorBoxes.forEach(box => {
         box.addEventListener('click', function() {
-            eval(box.getAttribute('onclick')); 
+            eval(box.getAttribute('onclick'));
         });
     });
 
