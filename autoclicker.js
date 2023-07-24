@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         rplace Auto Clicker
 // @namespace    https://githun.com/yakuthun
-// @version      1.0
+// @version      1.2
 // @description  Automatically clicks on selected area every 5 minutes
 // @author       yakuthun
 // @match        https://garlic-bread.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
-// @updateURL    https://github.com/yakuthun/rplace-autoclicker/raw/main/autoclicker.js
 // @downloadURL  https://github.com/yakuthun/rplace-autoclicker/raw/main/autoclicker.js
+// @updateURL    https://github.com/yakuthun/rplace-autoclicker/raw/main/autoclicker.js
 // ==/UserScript==
 
 if (window.top !== window.self) {
