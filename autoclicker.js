@@ -67,7 +67,7 @@ function autoBot() {
         changeText("Waiting for the countdown to finish");
       }, 6000);
 
-    setTimeout(autoBot, 308000);
+    setTimeout(autoBot, 248000);
   }
 
 
